@@ -14,3 +14,5 @@ Canvas Clock is a dynamic analog clock created using the HTML5 Canvas element. I
 - **HTML5**: For the structure and canvas element.
 - **CSS3**: For styling the web page.
 - **JavaScript**: For dynamic content, interactivity, and canvas drawing.
+
+## Check Live Demo here https://bipinchand-git.github.io/Animated-Clock/
