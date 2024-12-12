@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h3>Clock Style</h3>
+        <form>
+            <div class="form-input">
+                <label for="face-color">Face Color</label>
+                <input type="color" id="face-color" value="#f4f4f4">
+            </div>
+            <div class="form-input">
+                <label for="border-color">Border Color</label>
+                <input type="color" id="border-color" value="#800000">
+            </div>
+            <div class="form-input">
+                <label for="line-color">Number Lines Color</label>
+                <input type="color" id="line-color" value="#000000">
+            </div>
+            <div class="form-input">
+                <label for="large-hand-color">Large Hands Color</label>
+                <input type="color" id="large-hand-color" value="#800000">
+            </div>
+            <div class="form-input">
+                <label for="second-hand-color">Second Hand Color</label>
+                <input type="color" id="second-hand-color" value="#493628">
+            </div>
+            <div class="form-input">
+                <button type="submit" id="my-button">Save As Image</button>
+            </div>
+        </form>
+    </div>
+
+    <canvas id="canvas" width="500px" height="500px"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
